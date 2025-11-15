@@ -4,7 +4,7 @@ A TypeScript library for bidirectional conversion between JSON, TOON, and XML fo
 
 ## What is TOON Format?
 
-TOON is a compact, tabular data format that represents arrays of objects in a human-readable way:
+TOON stands for Token Oriented Object Notation, is a compact, tabular data format that represents arrays of objects in a human-readable way that would be best suited for LLM because it reduces token usage by up to 30%. Rather than sending over a JSON or an XML, using TOON would significantly reduce token usage because it has been optimized. Example TOON data:
 
 ```
 users[2]{id,name,role}:
@@ -15,7 +15,7 @@ users[2]{id,name,role}:
 ## Installation
 
 ```bash
-npm install toon-converter
+npm install @razmans/toon-converter
 ```
 
 ## Features
@@ -32,7 +32,7 @@ npm install toon-converter
 ### Import
 
 ```typescript
-import { ToonConverter } from 'toon-converter';
+import { ToonConverter } from '@razmans/toon-converter';
 ```
 
 ### JSON to TOON
