@@ -15,7 +15,7 @@ users[2]{id,name,role}:
 ## Installation
 
 ```bash
-npm install @razmans/toon-converter
+npm install toon-converter
 ```
 
 ## Features
@@ -32,7 +32,7 @@ npm install @razmans/toon-converter
 ### Import
 
 ```typescript
-import { ToonConverter } from '@razmans/toon-converter';
+import { ToonConverter } from 'toon-converter';
 ```
 
 ### JSON to TOON
